@@ -3,44 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Use - BuildCalc AI</title>
+    <title>Terms of Use — BuildCalc AI</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        :root{--bg:#FAFAF9;--card:#FFF;--text:#1C1917;--muted:#78716C;--accent:#2563EB;--border:#E7E5E4;--radius:16px}
-        @media(prefers-color-scheme:dark){:root{--bg:#0C0A09;--card:#1C1917;--text:#FAFAF9;--muted:#A8A29E;--accent:#60A5FA;--border:#292524}}
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'DM Sans',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
-        .container{max-width:720px;margin:0 auto;padding:48px 24px 80px}
-        .header{text-align:center;margin-bottom:48px}
-        .header .icon{width:64px;height:64px;background:linear-gradient(135deg,#2563EB,#7C3AED);border-radius:16px;display:inline-flex;align-items:center;justify-content:center;margin-bottom:20px;font-size:28px}
-        .header h1{font-size:32px;font-weight:700;letter-spacing:-0.5px;margin-bottom:8px}
-        .header .subtitle{color:var(--muted);font-size:15px}
-        .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:32px;margin-bottom:20px}
-        .card h2{font-size:20px;font-weight:600;margin-bottom:16px}
-        .card p{color:var(--muted);font-size:15px;margin-bottom:12px}
-        .card p:last-child{margin-bottom:0}
-        .highlight{background:linear-gradient(135deg,#FEF3C7,#FFF7ED);border-color:#FDE68A}
-        @media(prefers-color-scheme:dark){.highlight{background:linear-gradient(135deg,#292524,#2D2320);border-color:#44403C}}
-        .highlight p{color:var(--text);font-weight:500}
-        .badge{display:inline-block;background:#FEF3C7;color:#92400E;font-size:12px;font-weight:600;padding:4px 10px;border-radius:20px;margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px}
-        @media(prefers-color-scheme:dark){.badge{background:#78350F;color:#FDE68A}}
-        .footer{text-align:center;color:var(--muted);font-size:13px;margin-top:48px;padding-top:24px;border-top:1px solid var(--border)}
-        a{color:var(--accent);text-decoration:none}
-        a:hover{text-decoration:underline}
-        ul{color:var(--muted);font-size:15px;padding-left:20px;margin-bottom:12px}
-        ul li{margin-bottom:6px}
+        :root {
+            --bg: #FAFAF9;
+            --card: #FFFFFF;
+            --text: #1C1917;
+            --muted: #78716C;
+            --accent: #2563EB;
+            --border: #E7E5E4;
+            --radius: 16px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0C0A09;
+                --card: #1C1917;
+                --text: #FAFAF9;
+                --muted: #A8A29E;
+                --accent: #60A5FA;
+                --border: #292524;
+            }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .header .icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #2563EB, #7C3AED);
+            border-radius: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }
+
+        .card p {
+            color: var(--muted);
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .card p:last-child { margin-bottom: 0; }
+
+        .highlight {
+            background: linear-gradient(135deg, #FEF3C7, #FFF7ED);
+            border-color: #FDE68A;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .highlight {
+                background: linear-gradient(135deg, #292524, #2D2320);
+                border-color: #44403C;
+            }
+        }
+
+        .highlight p {
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #FEF3C7;
+            color: #92400E;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .badge {
+                background: #78350F;
+                color: #FDE68A;
+            }
+        }
+
+        .footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 13px;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        ul {
+            color: var(--muted);
+            font-size: 15px;
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        ul li { margin-bottom: 6px; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div class="icon">&#x1F4CB;</div>
+            <div class="icon">📋</div>
             <h1>Terms of Use</h1>
-            <p class="subtitle">BuildCalc AI - Last updated: February 24, 2026</p>
+            <p class="subtitle">BuildCalc AI · Last updated: February 24, 2026</p>
         </div>
 
         <div class="card highlight">
-            <span class="badge">Important</span>
+            <span class="badge">⚠ Important</span>
             <p>BuildCalc AI provides estimates for informational purposes only. All calculations should be verified by a qualified professional before use in actual construction, real estate, or financial decisions.</p>
         </div>
 
@@ -113,7 +241,7 @@
 
         <div class="card">
             <h2>10. Governing Law</h2>
-            <p>These Terms shall be governed by and construed in accordance with applicable law, without regard to conflict of law principles.</p>
+            <p>These Terms shall be governed by and construed in accordance with applicable law, without regard to conflict of law principles. Any disputes arising from these Terms or your use of the App shall be resolved in the applicable courts.</p>
         </div>
 
         <div class="card">
@@ -124,11 +252,11 @@
         <div class="card">
             <h2>12. Contact</h2>
             <p>For questions about these Terms of Use, please contact:</p>
-            <p><strong>support@buildcalcai.com</strong></p>
+            <p><a href="mailto:support@buildcalcai.com">support@buildcalcai.com</a></p>
         </div>
 
         <div class="footer">
-            <p>&copy; 2026 BuildCalc AI. All rights reserved.</p>
+            <p>© 2026 BuildCalc AI. All rights reserved.</p>
             <p><a href="https://denysprog.github.io/buildcalcai-doc/terms.html">Terms of Use</a> &middot; <a href="https://denysprog.github.io/buildcalcai-doc/privacy.html">Privacy Policy</a></p>
         </div>
     </div>
